@@ -1,0 +1,83 @@
+/* .................for all.............. */
+@media (min-width:200px) and (max-width:1200px){ 
+    nav{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    .container{
+        width: 85%;
+        font-size: 20px;
+    }
+    .welcome{
+        font-size: 20px;
+    }
+    .one{
+        margin:15px auto;
+    }
+    .subtitle{
+        flex-wrap: wrap;
+    }
+    
+
+
+
+
+    footer{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    footer div{
+        margin-bottom:10px ;
+        width: 51%;
+        border-bottom: 1px solid #fff;
+    }
+    .foot-right{
+        border: none;
+    }
+    .foot-left{
+        width: 51%;
+    }
+    .task{
+        margin:20px auto;
+    }
+}
+
+/* .................phones.............. */
+   /* ...home... */
+@media (min-width:200px) and (max-width:600px){ 
+    .one{
+        width: 85%;
+    }
+    .task{
+        width: 85%;
+    }
+}
+/* .................tablets.............. */
+@media (min-width:600px) and (max-width:768px){ 
+    .one{
+        width: 85%;
+    }
+    .task{
+        width: 45%;
+    }
+}
+/* .................laptops.............. */
+@media (min-width:768px) and (max-width:992px){ 
+    .one{
+        width: 47%;
+    }
+    .task{
+        width: 45%;
+    }
+}
+/* .................large.............. */
+@media (min-width:992px) and (max-width:1200px){ 
+    .one{
+        width: 47%;
+    }
+    .task{
+        width:30%;
+    }
+}
